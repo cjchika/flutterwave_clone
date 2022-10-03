@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Millik';
+  src: url("../src/assets/Fonts/millik.ttf");
+}
+
+@font-face {
+  font-family: 'Moderat';
+  src: url("../src/assets/Fonts/Moderat-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Moderat", sans-serif;
+  /* -webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
+}
+
+.section {
+  padding: 16rem 2rem;
+}
