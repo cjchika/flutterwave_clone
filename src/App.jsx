@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import MainHeader from "./components/MainHeader";
+import MenuNavigation from "./components/MenuNavigation";
 
 function App() {
   return (
     <Fragment>
-      <MainHeader />
+      <MenuNavigation />
     </Fragment>
   );
 }

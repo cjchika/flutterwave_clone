@@ -23,6 +23,13 @@ import Piggyvest from "./Images/piggyvest.svg";
 import Wise from "./Images/wise.svg";
 import Microsoft from "./Images/microsoft.svg";
 
+import Icon1 from "./Images/icon1.svg";
+import Icon2 from "./Images/icon2.svg";
+import Icon3 from "./Images/icon3.svg";
+import Icon4 from "./Images/icon4.svg";
+import Icon5 from "./Images/icon5.svg";
+import Icon6 from "./Images/icon6.svg";
+
 // Nav Links
 export const Navlinks = [
   { id: "l1", title: "Payments" },
@@ -56,3 +63,68 @@ export const countries = [
 
 // Partners Logo
 export const partnersLogo = [Uber, MTN, Chipper, Piggyvest, Wise, Microsoft];
+
+export const paymentChildren = [
+  {
+    id: "p1",
+    icon: Icon1,
+    title: "Collect payments",
+    subTitle: "Collect payment in 30+ currencies",
+  },
+  {
+    id: "p2",
+    icon: Icon2,
+    title: "Send Money",
+    subTitle: "Send money to anyone or business globally.",
+  },
+  {
+    id: "p3",
+    icon: Icon3,
+    title: "Checkout demo",
+    subTitle: "Experience checkout yourself.",
+  },
+];
+
+export const commerceChildren = [
+  {
+    id: "c1",
+    icon: Icon4,
+    title: "Store",
+    subTitle: "Start selling online",
+  },
+  {
+    id: "c2",
+    icon: Icon5,
+    title: "Payment Links",
+    subTitle: "Accept payments without writing code.",
+  },
+  {
+    id: "c3",
+    icon: Icon6,
+    title: "Invoice",
+    subTitle: "Create professional invoices.",
+  },
+];
+
+export const noIconChildren = [
+  {
+    id: "n1",
+    title: "Issuing",
+    subTitle: "Issue physical & virtual cards",
+  },
+  {
+    id: "n2",
+    title: "Capital",
+    subTitle: "Get quick access to flexible loans to grow your business",
+  },
+  {
+    id: "n3",
+    title: "Grow",
+    subTitle: "Register & Incorporate your business from anywhere",
+  },
+  {
+    id: "n4",
+    title: "FaaS",
+    subTitle: "Embed financial services into your product",
+  },
+];
