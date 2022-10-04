@@ -21,6 +21,7 @@ module.exports = {
       cardDarkBG: "#1d1d1d",
       cardLiteBG: "#f8fafd",
       pink: "#eb7da7",
+      blueDark: "#262c55",
     },
     extend: {
       fontFamily: {

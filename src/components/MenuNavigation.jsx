@@ -14,7 +14,7 @@ const MenuNavigation = () => {
 
   return (
     <header className="z-10 w-full  bg-white top-0 pt-[16px] lg:pt-[30px] px-[10px] md:px-[20px] ">
-      <nav className="flex lg:flex items-center justify-between xl:mx-[110px]">
+      <nav className="flex lg:flex items-center justify-between xl:mx-[90px]">
         <div className="flex  items-center ">
           <div className="w-48 ">
             <img src={Logo} alt="flutterwave-logo" className="w-full" />

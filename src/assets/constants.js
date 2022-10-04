@@ -57,8 +57,8 @@ export const countries = [
   { country: "South Africa", flag: SouthAfricaFlag },
   { country: "Tanzania", flag: TanzaniaFlag },
   { country: "Uganda", flag: UgandaFlag },
-  { country: "UK", flag: UKFlag },
-  { country: "US", flag: USFlag },
+  { country: "United Kingdom", flag: UKFlag },
+  { country: "United State", flag: USFlag },
 ];
 
 // Partners Logo

@@ -24,10 +24,10 @@ const MobileMenuNavigation = ({ menuHandler }) => {
                       />
                     </div>
                     <div className="flex flex-col flex-wrap justify-start">
-                      <span className="text-[#262c55] mb-[6px] font-semibold text-[14px]">
+                      <span className="text-blueDark mb-[6px] font-semibold text-[14px]">
                         {payment.title}
                       </span>
-                      <span className="text-[#262c55] text-[13px]">
+                      <span className="text-blueDark text-[13px]">
                         {payment.subTitle}
                       </span>
                     </div>
@@ -51,10 +51,10 @@ const MobileMenuNavigation = ({ menuHandler }) => {
                       />
                     </div>
                     <div className="flex flex-col flex-wrap justify-start">
-                      <span className="text-[#262c55] mb-[6px] font-semibold text-[14px]">
+                      <span className="text-blueDark mb-[6px] font-semibold text-[14px]">
                         {commerce.title}
                       </span>
-                      <span className="text-[#262c55] text-[13px]">
+                      <span className="text-blueDark text-[13px]">
                         {commerce.subTitle}
                       </span>
                     </div>
@@ -70,10 +70,10 @@ const MobileMenuNavigation = ({ menuHandler }) => {
                 key={noIcon.id}
                 className="flex flex-col flex-wrap justify-start px-[10px] py-[10px]"
               >
-                <span className="text-[#262c55] mb-[6px] font-semibold text-[14px]">
+                <span className="text-blueDark mb-[6px] font-semibold text-[14px]">
                   {noIcon.title}
                 </span>
-                <span className="text-[#262c55] text-[13px]">
+                <span className="text-blueDark text-[13px]">
                   {noIcon.subTitle}
                 </span>
               </a>
@@ -82,7 +82,7 @@ const MobileMenuNavigation = ({ menuHandler }) => {
         </ul>
         <div className="flex justify-center py-3 px-[10px] mt-5 mb-5">
           <button
-            className="bg-[#262c55] font-medium text-base text-white w-full py-3 rounded-xl"
+            className="bg-blueDark font-medium text-base text-white w-full py-3 rounded-xl"
             onClick={menuHandler}
           >
             <a className="text-center">Sign in</a>
