@@ -12,7 +12,7 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       white: "#ffffff",
-      black: "#000",
+      black: "#000000",
       orange: "#fb9129",
       btnPrimary: "#0a0e27",
       btnSecondary: "#eee",

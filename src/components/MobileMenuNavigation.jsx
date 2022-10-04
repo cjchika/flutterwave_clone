@@ -7,7 +7,7 @@ import { noIconChildren } from "../assets/constants";
 const MobileMenuNavigation = ({ menuHandler }) => {
   return (
     <Fragment>
-      <div className=" mt-4 lg:hidden overflow-scroll">
+      <div className="bg-white mt-4 lg:hidden ">
         <ul className="flex flex-col items-stretch text-ash ">
           <li className="pt-[10px] mb-[18px]  border-b-[0.5px] border-[#dfdddd] bg-transparent border-dashed">
             <span className="uppercase cursor-auto text-[12px] text-[#686868] mb-[14px] py-0 px-[10px]">
