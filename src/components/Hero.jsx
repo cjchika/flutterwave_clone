@@ -3,8 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <section className="pt-[140px]">
-        <div className="my-0 mx-auto m-w-[102.9] flex flex-wrap items-start justify-between xl:mx-[90px] overflow-hidden">
+      <section className="pt-[140px] ">
+        <div className="my-0 mx-auto m-w-[102.9rem] flex flex-wrap items-start justify-between xl:mx-[90px] overflow-hidden">
           <div className="w-[55rem] ">
             <h4 className="font-millik font-medium text-black text-5xl lg:leading-[7rem] mb-7 md:text-[70px] lg:text-[6rem] xl:text-[6.5rem]">
               <span className="text-orange">Endless possibilities</span>{" "}

@@ -17,7 +17,7 @@ import USFlag from "./Images/USFlag.webp";
 import ZambiaFlag from "./Images/ZambiaFlag.jpg";
 
 import Uber from "./Images/uber.svg";
-import MTN from "./Images/mtn.svg";
+import MTNLogo from "./Images/mtn.svg";
 import Chipper from "./Images/chipper.svg";
 import Piggyvest from "./Images/piggyvest.svg";
 import Wise from "./Images/wise.svg";
@@ -62,7 +62,14 @@ export const countries = [
 ];
 
 // Partners Logo
-export const partnersLogo = [Uber, MTN, Chipper, Piggyvest, Wise, Microsoft];
+export const partnersLogo = [
+  { id: "p1", icon: Uber },
+  { id: "p2", icon: MTNLogo },
+  { id: "p3", icon: Chipper },
+  { id: "p4", icon: Piggyvest },
+  { id: "p5", icon: Wise },
+  { id: "p6", icon: Microsoft },
+];
 
 export const paymentChildren = [
   {

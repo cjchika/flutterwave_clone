@@ -4,7 +4,7 @@ import FootCity from "../assets/Images/foot-city.webp";
 
 const Customers = () => {
   return (
-    <section className="pt-0 md:px-0">
+    <section className="pt-0 md:px-0 py-[30px] md:py-[60px]">
       <div className="max-w-[168rem]">
         <div className="flex flex-wrap md:flex-nowrap items-start justify-between">
           <div className="md:relative md:h-full md:mr-16">

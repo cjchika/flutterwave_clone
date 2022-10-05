@@ -3,6 +3,7 @@ import MenuNavigation from "./components/MenuNavigation";
 import Layout from "./components/Layout";
 import Hero from "./components/Hero";
 import Customers from "./components/Customers";
+import Partners from "./components/Partners";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Layout>
         <Hero />
         <Customers />
+        <Partners />
       </Layout>
     </Fragment>
   );
