@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Hero from "./components/Hero";
 import Customers from "./components/Customers";
 import Partners from "./components/Partners";
+import Payment from "./components/Payment";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Customers />
         <Partners />
+        <Payment />
       </Layout>
     </Fragment>
   );
