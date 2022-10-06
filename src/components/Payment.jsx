@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Payment = () => {
   return (
-    <section>
+    <section className="py-[70px] lg:py-[90px]">
       <div className="my-0 mx-auto max-w-[109.2rem] xl:mx-[50px]">
         <h2 className="font-millik font-medium text-black text-[2.2rem] mb-10 md:text-[3.2rem] lg:text-[80px] lg:leading-[5rem]  xl:text-[5rem] max-w-[40rem]">
           A fully unified set of{" "}
