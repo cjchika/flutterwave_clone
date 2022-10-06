@@ -12,7 +12,7 @@ const Commerce = () => {
             Build a successful online business with our{" "}
             <span className="text-green">Commerce tools.</span>
           </h2>
-          <div className="lg:mb-[18rem]">
+          <div className="mb-[3rem] lg:mb-[10rem] ">
             <div className="flex  items-start justify-end">
               <div className="pt-[1rem]  lg:flex  items-start justify-end">
                 <div className="lg:w-[25rem] lg:mr-[4.5rem] lg:mt-[8rem]">
@@ -82,7 +82,7 @@ const Commerce = () => {
             <div className="flex flex-wrap lg:flex-nowrap  items-end justify-start lg:mt-[-10%]">
               <div className="w-full lg:mr-[5rem] lg:w-[58%] ">
                 <div className="relative h-full mb-10 lg:mb-0">
-                  <div className="lg:h-[100%] w-full lg:w-[29rem] xlg:w-[33rem] xl:w-[35rem]">
+                  <div className="lg:h-[100%] w-full lg:w-[29rem] xlg:w-[33rem] xl:w-[38rem]">
                     <img
                       src={CreatorIImage}
                       className="object-cover h-full w-full"
@@ -136,6 +136,17 @@ const Commerce = () => {
               </div>
             </div>
           </div>
+          <p className="text-cardDarkBG text-[36px] md:text-[50px] font-thin lg:text-[4.5rem] mb-[4rem]">
+            Let’s play to our strengths, shall we? You focus on bringing your
+            amazing ideas to life and we focus on providing all the{" "}
+            <span className="text-green">commerce tools</span> you need.
+          </p>
+          <a
+            href="/"
+            className="bg-btnPrimary text-white font-semibold text-sm rounded-lg p-6 px-8 "
+          >
+            Okay, let's go
+          </a>
         </div>
       </section>
     </>
