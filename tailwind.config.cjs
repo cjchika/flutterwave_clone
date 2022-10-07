@@ -29,6 +29,12 @@ module.exports = {
         poppins: ["'Poppins'", "'sans-serif'"],
         millik: ["'Millik'", "cursive"],
       },
+      dropShadow: {
+        "3xl": "0 10px 15px rgba(255, 255, 255, 0.5)",
+      },
+      backgroundImage: {
+        box: "url('./src/assets/Images/box.png')",
+      },
     },
   },
   plugins: [],
