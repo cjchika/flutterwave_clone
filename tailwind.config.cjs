@@ -31,6 +31,7 @@ module.exports = {
       },
       dropShadow: {
         "3xl": "0 10px 15px rgba(255, 255, 255, 0.5)",
+        "4xl": "0 26px 26px rgb(0 0 0 / 0.25)",
       },
       backgroundImage: {
         box: "url('./src/assets/Images/box.png')",
