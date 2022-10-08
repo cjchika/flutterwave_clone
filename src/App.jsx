@@ -7,6 +7,7 @@ import Partners from "./components/Partners";
 import Payment from "./components/Payment";
 import Commerce from "./components/Commerce";
 import Cards from "./components/Cards";
+import APIsection from "./components/APIsection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Payment />
         <Commerce />
         <Cards />
+        <APIsection />
       </Layout>
     </Fragment>
   );

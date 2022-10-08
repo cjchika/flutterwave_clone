@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Commerce = () => {
   return (
     <>
-      <section className="py-[70px] md:py-[100px]">
+      <section className="py-[70px] md:py-[100px] bg-[#f8fafd]">
         <div className="my-0 mx-auto max-w-[109.2rem]  . flex flex-wrap items-start justify-between xl:mx-[90px] overflow-hidden">
           <h2 className="text-cardDarkBG font-millik max-w-[108.7rem] mb-[2rem] lg:mb-[5rem]  text-[34px] md:text-[48px] leading-[2.6rem] lg:text-[5rem] md:leading-[3.5rem] lg:leading-[5.8rem]">
             Build a successful online business with our{" "}

@@ -6,8 +6,8 @@ const Cards = () => {
   return (
     <>
       <section className="bg-cardDarkBG">
-        <div className="xl:mx-[120px] md:my-[65px] lg:my-[90px] max-w-[120.6rem] flex flex-col items-center justify-start text-center">
-          <h2 className="font-millik text-white mb-[26px] lg:mb-[3.5rem] max-w-[70rem] text-[36px] md:text-[46px] lg:text-[80px] leading-[2.7rem] lg:leading-[5rem]">
+        <div className=" md:my-[65px] lg:my-[90px] max-w-[120.6rem] flex flex-col items-center justify-start text-center">
+          <h2 className="xl:mx-[120px]  font-millik text-white mb-[26px] lg:mb-[3.5rem] max-w-[70rem] text-[36px] md:text-[46px] lg:text-[80px] leading-[2.7rem] lg:leading-[5rem]">
             Create physical and virtual{" "}
             <span className="text-[#6672c7]">cards</span>
           </h2>
@@ -23,12 +23,12 @@ const Cards = () => {
           </a>
           <div>
             <img
-              className="h-full w-full md:w-[400px] xl:w-[500px] drop-shadow-3xl mb-[6em]"
+              className="h-full w-full md:w-[400px] xl:w-[500px] drop-shadow-3xl mb-[6em] lg:mb-[10rem]"
               src={MasterCard}
             />
           </div>
-          <div className="flex flex-col md:flex-row w-full justify-center  ">
-            <div className="text-white bg-[url('./assets/Images/box.png')] z-[1]  bg-[#313131] rounded-[1.6rem] drop-shadow-2xl overflow-hidden text-left p-8 lg:p-12 md:absolute md:w-[22rem] xlg:w-[30rem] md:ml-[-22rem] lg:ml-[-27rem] xl:ml-[-35rem] hover:target:">
+          <div className="flex flex-col md:flex-row w-full justify-center overflow-hidden">
+            <div className="text-white bg-[url('./assets/Images/box.png')] z-[1]  bg-[#313131] rounded-[1.6rem] drop-shadow-4xl overflow-hidden text-left p-8 lg:p-12 md:absolute md:w-[22rem] xlg:w-[30rem] md:ml-[-22rem] lg:ml-[-27rem] xl:ml-[-35rem] hover:target:">
               <h6 className="font-semibold text-[1.2rem] mb-[1.5rem]">
                 Business Expense management
               </h6>
@@ -40,7 +40,7 @@ const Cards = () => {
                 customer. The possibilities are endless.
               </p>
             </div>
-            <div className="text-white z-[2] bg-[url('./assets/Images/box.png')] my-[3rem] md:my-0 bg-[#313131] rounded-[1.6rem] drop-shadow-2xl overflow-hidden text-left p-8 lg:p-12 md:absolute  md:w-[22rem] xlg:w-[30rem] md:ml-[2rem] lg:ml-4rem] md:hover:translate-x-52 md:hover:ease-out duration-300">
+            <div className="text-white z-[2] bg-[url('./assets/Images/box.png')] my-[3rem] md:my-0 bg-[#313131] rounded-[1.6rem] drop-shadow-4xl overflow-hidden text-left p-8 lg:p-12 md:absolute  md:w-[22rem] xlg:w-[30rem] md:ml-[2rem] lg:ml-4rem] md:hover:translate-x-52 md:hover:ease-out duration-300">
               <h6 className="font-semibold text-[1.2rem] mb-[1.5rem]">
                 New revenue lines established
               </h6>
@@ -52,7 +52,7 @@ const Cards = () => {
                 customer. The possibilities are endless.
               </p>
             </div>
-            <div className=" text-white z-[3] bg-[url('./assets/Images/box.png')] bg-[#313131] rounded-[1.6rem] drop-shadow-4xl overflow-hidden text-left p-8 lg:p-12 md:w-[22rem] xlg:w-[30rem] md:ml-[22rem] lg:ml-[28rem] md:hover:translate-x-60 md:hover:ease-out duration-300">
+            <div className=" text-white z-[3] bg-[url('./assets/Images/box.png')] bg-[#313131] rounded-[1.6rem] drop-shadow-4xl overflow-hidden text-left p-8 lg:p-12 md:w-[22rem] xlg:w-[30rem] md:ml-[22rem] lg:ml-[28rem] md:hover:translate-x-40 xlg:hover:translate-x-60 md:hover:ease-out duration-300">
               <h6 className="font-semibold text-[1.2rem] mb-[1.5rem]">
                 Seamless Business Organization
               </h6>
