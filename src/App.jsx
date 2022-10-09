@@ -9,6 +9,7 @@ import Commerce from "./components/Commerce";
 import Cards from "./components/Cards";
 import APIsection from "./components/APIsection";
 import Global from "./components/Global";
+import CTA from "./components/CTA";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Cards />
         <APIsection />
         <Global />
+        <CTA />
       </Layout>
     </Fragment>
   );
