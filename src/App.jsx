@@ -8,6 +8,7 @@ import Payment from "./components/Payment";
 import Commerce from "./components/Commerce";
 import Cards from "./components/Cards";
 import APIsection from "./components/APIsection";
+import Global from "./components/Global";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Commerce />
         <Cards />
         <APIsection />
+        <Global />
       </Layout>
     </Fragment>
   );
