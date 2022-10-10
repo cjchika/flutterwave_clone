@@ -11,6 +11,7 @@ import {
 } from "../assets/constants";
 import NigeriaFlag from "../assets/Images/NigeriaFlag.jpg";
 import { IoIosArrowDown } from "react-icons/io";
+import MobileFooter from "./MobileFooter";
 
 const Footer = () => {
   const [toggleButton, setToggleButton] = useState(false);
@@ -21,6 +22,7 @@ const Footer = () => {
 
   return (
     <footer className="pt-[90px] px-[20px]">
+      <MobileFooter />
       <div className="max-w-[109.rem] bg-white  text-cardDarkBG xl:mx-[90px]">
         <div className="hidden lg:flex justify-between border-[#f3f3f3] border-b pb-[40px]">
           <div className="w-[20%]">
