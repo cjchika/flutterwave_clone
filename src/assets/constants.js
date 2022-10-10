@@ -135,3 +135,66 @@ export const noIconChildren = [
     subTitle: "Embed financial services into your product",
   },
 ];
+
+export const Products = [
+  { id: "p1", text: "Collect Payments" },
+  { id: "p2", text: "Send Money" },
+  { id: "p3", text: "Store" },
+  { id: "p4", text: "Payment Links" },
+  { id: "p5", text: "Inovices" },
+  { id: "p6", text: "Capital" },
+  { id: "p7", text: "Grow" },
+  { id: "p8", text: "Card Issuing" },
+  { id: "p9", text: "FaaS" },
+];
+
+export const Resources = [
+  { id: "r1", text: "Pricing" },
+  { id: "r2", text: "Support" },
+  { id: "r3", text: "Blog" },
+  { id: "r4", text: "Integrations" },
+  { id: "r5", text: "Why you got charged" },
+];
+
+export const Developers = [
+  { id: "d1", text: "API Documentation" },
+  { id: "d2", text: "API Reference" },
+  { id: "d3", text: "API Status" },
+];
+
+export const Flutterwave = [
+  { id: "f1", text: "Customers" },
+  { id: "f2", text: "Careers" },
+  { id: "f3", text: "Press kit" },
+  { id: "f4", text: "Covid 19" },
+  { id: "f5", text: "Barter" },
+  { id: "f6", text: "Disha" },
+  { id: "f7", text: "Send" },
+];
+
+export const Contact = [
+  { id: "c1", text: "hi@flutterwavego.com" },
+  { id: "c2", text: "+234 1-8889595" },
+  { id: "c3", text: "0700-FLUTTERWAVE" },
+  { id: "c4", text: "Twitter Support" },
+  {
+    id: "c5",
+    text: "Call lines are open 08:00 to 17:00 WAT, Mondays - Fridays",
+  },
+];
+
+export const Social = [
+  { id: "s1", text: "Twitter" },
+  { id: "s2", text: "Facebook" },
+  { id: "s3", text: "Instagram" },
+  { id: "s4", text: "YouTube" },
+  { id: "s5", text: "LinkedIn" },
+];
+
+export const Legal = [
+  { id: "l1", text: "Privacy policy" },
+  { id: "l2", text: "Terms of use" },
+  { id: "l3", text: "Cookie policy" },
+  { id: "l4", text: "Merchant Service Agreement" },
+  { id: "l5", text: "Payment Protection promise" },
+];
